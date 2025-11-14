@@ -1,1 +1,1 @@
-WinPE Working directories go here!
+Рабочие каталоги WinPE находятся здесь!
