@@ -1,8 +1,6 @@
 @ECHO OFF
-title WinPEBuilder v1.1 - By CarlosMartinez - GitHub @cmartinezone
-:: Developed by: Carlos Martinez @cmartinezone Date: 1/15/2019
-:: Updated: 11-11-2019- Composing Packages, and adding background replacement
-:: WinPEBuilder 1.0 Auto Generate WinPE ISO with drivers and script incorporate
+title WinPEBuilder v1.1 - By Cicada3301
+:: Developed by: Cicada3301
 
 REM Where to put Windows PE tree and ISO
 Set winpe_root=%~dp0WinPE-Root
@@ -85,3 +83,4 @@ Dism /Unmount-Wim /MountDir:%winpe_root%\mount\ /Commit
 
 REM Creating ISO image from WinPE 
 Makewinpemedia /iso /f %winpe_root% %ISO_Path%\WinPE_X64.iso && PAUSE
+
