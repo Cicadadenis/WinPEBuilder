@@ -1,1 +1,1 @@
-All Scripts and files in this location will be copied to the Root Directory of the WinPE
+Все скрипты и файлы в этом месте будут скопированы в корневой каталог WinPE.
